@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,initial-scale=1">
+    <title>Product Showcase</title>
+    <link rel="stylesheet"href="styles.css">
+</head>    
+<body>
+    <header>
+        <div class="add-product">
+            <input type="text" id="productInput"
+            placeholder="Enter new product">
+            <button id="addProductBtn">Add Product</button>
+        </div>
+        <h1>PRODUCTS</h1>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Locations</button>
+                <div class="dropdown-content">
+                    <a href="#">Cuttuck</a>
+                    <a href="#">Patna</a>
+                    <a href="#">Kolkata</a>
+                    <a href="#">Chennai</a>
+                </div>
+            </div>
+        <nav class="main-nav">
+            <a href="locations.html">Locations</a>
+            <a href="index.html">Products</a>
+            <a href="prices.html">Prices</a>
+            <a href="categories.html">Categories</a>
+            <a href="gallery.html">Gallery</a> <!-- ✅ NEW -->
+        </nav>    
+            <div class="dropdown">
+                <button class="dropbtn">Categories</button>
+                <div class="dropdown-content">
+
+                    <a href="#">Lifestyle Utility</a>
+                    <a href="#">Gym and sport</a>
+                    <a href="#">Equipment Farm</a>
+                    <a href="#">Mechanical</a>
+                </div>    
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Prices</h2>
+            <div class="product-grid">
+                <div class="product">Smart Water Bottle</div>
+                <div class="product">Yoga Mat</div>
+                <div class="product">Mini Tiller Machine</div>
+                <div class="product">Air-Conditioner(AC)</div>
+                <div class="product">Washing Machine</div>
+                <div class="product">Mobiles</div>
+                <div class="product">Laptops</div>
+                <div class="product">Grocery</div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
